@@ -51,8 +51,8 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  age_total =
-  contestent_count = 1.0 
+  age_total = 0
+  contestent_count = 1.0
   data.each do |season, people_array|
     people_array.each do |contestent|
       contestent.each do |key, value|
